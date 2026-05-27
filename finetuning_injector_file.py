@@ -10,7 +10,7 @@ from google.colab import userdata
 HF_TOKEN = userdata.get('Mytoken')
 os.environ['HF_TOKEN'] = HF_TOKEN
 
-df = pd.read_csv("igbo_clean.csv")
+df = pd.read_csv(input dir of training file)
 df = df.dropna()
 
 print(f"Training on {len(df)} examples")
